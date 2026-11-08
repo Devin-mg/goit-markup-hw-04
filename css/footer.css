@@ -4,6 +4,14 @@
   background-color: #2e2f42;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 16px;
@@ -13,4 +21,21 @@
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
+}
+
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-social-list {
+  gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
